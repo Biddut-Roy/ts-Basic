@@ -13,4 +13,4 @@ const user : {
     CompanyName: "Start a jack"
 }
 
-user.CompanyName = "Start"
+user.LastName = "Start"
