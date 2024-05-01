@@ -5,10 +5,12 @@ const user : {
     middleName?: string;            //Optional Type
     LastName: string;
     // CompanyName: string;
-    CompanyName: 'Start a jack';       // literal type
+    readonly CompanyName: 'Start a jack';       // literal type
 } = {
     firstName: "Nill",
     middleName: "",
     LastName: "Roy",
     CompanyName: "Start a jack"
 }
+
+user.CompanyName = "Start"
